@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.boston.roman.papvs1.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="391dp"
+        android:layout_height="537dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="-26dp"
+        tools:layout_editor_absoluteX="-7dp">
+
+        <Button
+            android:id="@+id/btnRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/red"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/green"
+            android:layout_below="@+id/btnRed"
+            android:layout_alignStart="@+id/btnRed"
+            android:layout_marginTop="25dp" />
+
+        <Button
+            android:id="@+id/btnBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blue"
+            android:layout_alignTop="@+id/btnGreen"
+            android:layout_alignStart="@+id/btnGreen"
+            android:layout_marginTop="75dp" />
+
+        <TextView
+            android:id="@+id/lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_below="@+id/btnGreen"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="121dp"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/btnImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnBlue"
+            android:layout_below="@+id/lbl"
+            android:layout_marginTop="62dp"
+            android:text="IMAGE" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

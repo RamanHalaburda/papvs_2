@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PAPVS1</string>
+    <string name="green">Grun</string>
+    <string name="red">Rod</string>
+    <string name="blue">Blau</string>
+    <string name="hred">guten tac rod</string>
+    <string name="hgreen">Hello GREEN</string>
+    <string name="hblue">Hello BLUE</string>
+    <string name="setg">set green</string>
+    <string name="setr">set red</string>
+    <string name="setb">set blue</string>
+    <string name="seti">set img</string>
+</resources>

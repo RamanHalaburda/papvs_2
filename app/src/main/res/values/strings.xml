@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PAPVS1</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="hred">Hello RED</string>
+    <string name="hgreen">Hello GREEN</string>
+    <string name="hblue">Hello BLUE</string>
+    <string name="setg">set green</string>
+    <string name="setr">set red</string>
+    <string name="setb">set blue</string>
+    <string name="seti">set img</string>
+</resources>
